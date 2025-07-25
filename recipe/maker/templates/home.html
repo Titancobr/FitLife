@@ -1,0 +1,62 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitLife - Transform Your Fitness Journey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'styles.css' %}"/>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"> <span class="pulse">&#x2764;</span> FitLife </div>
+      <ul class="nav-links">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="receipe/">Recipes</a></li>
+        <li><a href="#">Calories</a></li>
+        <li><a href="#">Exercises</a></li>
+        <li><a href="#">Meal Plan</a></li>
+      </ul>
+      <a href="#" class="btn">Get Started</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Transform Your <span class="gradient-text">Fitness Journey</span></h1>
+        <p>Complete fitness solution with personalized workouts, nutrition tracking, and meal planning to achieve your health goals.</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn primary">Start Your Journey</a>
+          <a href="#" class="btn secondary">Learn More</a>
+        </div>
+      </div>
+      <div class="features">
+        <div class="card">
+          <div class="icon">🍏</div>
+          <h3>Recipe Manager</h3>
+          <p>Add and organize your healthy recipes</p>
+        </div>
+        <div class="card">
+          <div class="icon">🎯</div>
+          <h3>Calorie Tracker</h3>
+          <p>Track your daily caloric intake and goals</p>
+        </div>
+        <div class="card">
+          <div class="icon">📈</div>
+          <h3>Workout Plans</h3>
+          <p>Structured exercises for different muscle groups</p>
+        </div>
+        <div class="card">
+          <div class="icon">📅</div>
+          <h3>Meal Planning</h3>
+          <p>Plan your meals and get food suggestions</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
