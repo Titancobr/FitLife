@@ -16,9 +16,8 @@
 - Django (Python)
 - HTML5
 - CSS3
-- Bootstrap (optional, if used)
+- Bootstrap
 - SQLite (default Django DB)
 - Font Awesome (icons)
 
-## 📁 Project Structure
 
