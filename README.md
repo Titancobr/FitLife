@@ -19,5 +19,3 @@
 - Bootstrap
 - SQLite (default Django DB)
 - Font Awesome (icons)
-
-
