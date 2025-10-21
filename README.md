@@ -3,7 +3,6 @@
 **FitLife** is a modern, fully responsive fitness website built using **Django** and **HTML/CSS**. This project includes a professional homepage layout ideal for gyms, personal trainers, fitness bloggers, or health & wellness startups.
 
 ## 🚀 Features
-
 - 🔧 Built with Django (views, templates, and static files structured)
 - ✅ Responsive homepage UI
 - ✅ Clean design with CSS animations
